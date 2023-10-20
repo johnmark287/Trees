@@ -3,7 +3,8 @@
 
 #include <stdio.h>
 
-long long fact(long long n);
+unsigned long long fact(unsigned long long int n);
+unsigned long long int factorial_by_iteration(unsigned long long int n);
 int fib(int n);
 
-#endif
+#endif /* MAIN_H */

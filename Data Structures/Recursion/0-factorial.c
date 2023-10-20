@@ -1,4 +1,4 @@
-long long fact(long long n)
+unsigned long long int fact(unsigned long long int n)
 {
 	if (n == 1)
 		return (1);

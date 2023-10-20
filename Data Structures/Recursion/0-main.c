@@ -1,12 +1,15 @@
 #include "main.h"
 int main(void)
 {
-	int n;
-	int factorial;
+	unsigned long long int n;
+	unsigned long long int factorial;
 
 	n = 5;
 	factorial = fact(n);
-	printf("Result: %d\n", factorial);
+	printf("Factorial by recursion: %d\n", factorial);
+
+	factorial = factorial_by_iteration(n);
+	printf("Factorial by iteration: %d\n", factorial);
 
 	return (0);
 }
