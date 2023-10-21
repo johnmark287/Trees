@@ -14,5 +14,6 @@ struct node
 void count_of_nodes(Node *);
 char *_strtok(char *str, const char *delim);
 char *_strdup(char *str);
+int _strlen(char *str);
 
 #endif
