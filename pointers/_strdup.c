@@ -2,10 +2,10 @@
 
 char *_strdup(char *str)
 {
-	char *copy;
+	char copy[_strlen(str)];
 	int i;
 
 	for (i = 0; *(str + i); i++)
-		*(copy + i) = *(str + i);
+		copy[i] = *(str + i);
 	return (copy);
 }

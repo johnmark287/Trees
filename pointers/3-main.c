@@ -13,3 +13,40 @@ Write a C program that takes a sentence as input from the user and performs the 
 
 Now That tuliona assignment ni rahisi sanaa Hint no 5: #include <ctype.h>
 */
+int main(void)
+{
+    int i, n, words, j;
+    char str[128], *delim, **word_var;
+    
+
+    n = 128;
+    printf("Type in a sentence: \n");
+    fgets(str, n, stdin);
+
+
+    delim = " ";
+    words = 0;
+    j = 0;
+    for (i = 0; *(str + i); i++)
+    {
+        for (; *(str + j) != *delim && *(str + j); j++)
+        {
+            **word_var = malloc(sizeof(char));
+            if (*word_var == NULL)
+                return (NULL);
+			**(word_var + j);
+        }
+        words += 1;
+        word_var = malloc(sizeof(char) * );
+        if (word_var == NULL)
+            return (NULL);
+		*(word_var + i);
+        j++;
+        if (*(str + j) == '\0')
+            break;
+    }
+
+
+    words = num_of_words(str);
+    return (0);
+}

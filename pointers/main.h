@@ -15,5 +15,6 @@ void count_of_nodes(Node *);
 char *_strtok(char *str, const char *delim);
 char *_strdup(char *str);
 int _strlen(char *str);
+int num_of_words(char *str);
 
 #endif
