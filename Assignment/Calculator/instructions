@@ -1,0 +1,19 @@
+# Calculator
+## Constraints
+- no use of math.h
+
+## header file
+- calculator.h
+
+## Functions
+- type: float
+- add
+- divide
+- multiply
+- subtract
+- square root // hint: binary search
+
+## main.c
+- ask user for an option(## functions)
+- ask for 2 numbers
+- print output
